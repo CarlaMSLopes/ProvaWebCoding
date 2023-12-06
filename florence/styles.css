@@ -1,0 +1,290 @@
+body,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  font-family: Noto Sans;
+}
+
+
+
+.section {
+  background-color: #FBEEF8;
+  height: 120vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.background-image {
+  
+  padding: 20%;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+#section1 {
+  background-image: url(/images/evie-s-bSVGnUCk4tk-unsplash\ 1.png);
+}
+
+a {
+  text-decoration: none;
+  color: #241821;
+}
+
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  flex-wrap: wrap;
+  width: 120%;
+  margin-right: 20%;
+  margin-left: -60px;
+}
+
+.menu {
+  display: flex;
+}
+
+.btn_nav li {
+  margin-left: 10px;
+}
+
+.menu li {
+  margin-left: 50px;
+}
+
+menu li a,
+.btn_nav li a {
+  display: block;
+  padding: 20px;
+}
+
+.menu li a:hover {
+  font-size: 1.5rem;
+}
+
+.btn_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_nav li:hover {
+  background-color: #F3D2EB;
+  border-radius: 5px;
+}
+
+#Separador_img {
+  width: 145%;
+  margin-left: -150px;
+}
+
+#Separador_img3{
+  width: 145%;
+  margin-left: -150px;
+  margin-top: 155px;
+
+}
+
+
+#Separador_img2 {
+  width: 145%;
+  margin-left: -150px;
+  margin-top: 210px;
+
+
+}
+
+#titulo_img {
+  margin-left: -90px;
+}
+
+#btn_cadastro:hover {
+  cursor: pointer;
+  background-color: #F3D2EB;
+  color: #37112D;
+}
+
+#btn_cadastro {
+  position: relative;
+  padding: 10px 25px;
+  margin-left: -72%;
+  top: 13%;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #37112D;
+  background: #241821;
+  box-shadow: 0px 2px 2px 0px rgba(36, 24, 33, 0.25);
+  color: #F3D2EB;
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btn_footer {
+  position: relative;
+  display: flex;
+  top: 200px;
+  right: 250px;
+
+}
+
+.btn_footer li a {
+  display: block;
+  padding: 10px;
+}
+
+
+.menu_section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+  flex-wrap: wrap;
+  
+}
+
+#img_txt_section2 {
+  padding-top: 30px;
+}
+.menu_section2 li{
+  padding: 30px;
+}
+.menu_section2 li:hover{
+  border-radius: 5px;
+border: 1px solid #241821;
+background: #EFDCEA;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+#tituloh1{
+  padding: 15px;
+  text-align: center;
+  color: #241821;
+font-family: Noto Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 550;
+line-height: normal;
+}
+
+.card{
+  text-align: center;
+}
+
+#paragrafo{
+ color: #847680;
+font-family: Noto Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.card_list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.card_list li{
+margin-left: 30px;
+}
+
+#cadastrotitle{
+  margin-left: 260px;
+}
+
+#img_txt_section3{
+padding:20px;
+margin-left: 300px;
+}
+
+footer{
+  overflow: hidden;
+  background-color: #37112D;
+}
+
+
+.minha-sessao {
+  background-color: #FBEEF8;
+  display: none; /* Inicia oculta */
+  padding: 20px;
+  border: 1px solid #FBEEF8;
+  margin-top: 20px;
+  position: absolute;
+  left: 800px;
+  top: 100px;
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+#loginForm button{
+ margin-top: 15px;
+  padding: 10px 25px;
+  margin-left: 60px;
+ 
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #37112D;
+  background: #241821;
+  box-shadow: 0px 2px 2px 0px rgba(36, 24, 33, 0.25);
+  color: #F3D2EB;
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  ul {
+      display: none; 
+  }
+
+  #botaoToggle {
+      display: block;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+ 
+  #cadastrotitle, .logo,.menu{
+    display: none;
+  }
+ 
+}
+

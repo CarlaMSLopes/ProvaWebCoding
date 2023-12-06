@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>FLorence</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <section class="section" id="section1">
+    <div class="background-image">
+      <header class="header">
+        <a class="logo" href="/index.html"><img src="/images/Logomarca.png" alt="logo marca da loja"></a>
+       
+        <ul id="listaNavegacao" class="menu">
+          <li><a href="">Todas as flores</a></li>
+          <li><a href="">Ocasiões</a></li>
+          <li><a href="">Personalize</a></li>
+          <li><a href="">Blog</a></li>
+
+
+        </ul>
+
+        <ul class="btn_nav">
+          <li><a  href=""><img src="/images/search.png" alt="icone de pesquisa"></a></li>
+          <li><a  onclick="abrirSessao()"  href="javascript:void(0)"><img src="/images/account_circle.png" alt="icone de logar na conta"></a></li>
+          <li><a href=""><img src="/images/shopping_bag.png" alt="icone da mochila"></a></li>
+        </ul>
+        <div id="minhaSessao" class="minha-sessao">
+          <form id="loginForm">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+        
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+        
+            <button type="button">Entrar</button>
+        </form>
+      </div>
+      <button id="botaoToggle" onclick="toggleLista()">Abrir Lista</button>
+      </header>
+
+      <img id="Separador_img" src="/images/Separador.png" alt="imagem separador">
+      <img id="titulo_img" src="/images/Título.png"
+        alt="Desperte emoções com a delicadeza das flores. Na nossa floricultura, cada arranjo é uma expressão única de amor, celebrando momentos especiais com a beleza que só as flores podem oferecer. Faça sua escolha e colha sorrisos com a magia das nossas flores.">
+
+     <a id="btn_cadastro" href="cadastro.html">Crie sua conta</a>
+      <ul class="btn_footer">
+
+        <li><a  href=""><img src="/images/whatsapp.png" alt="icone de logar na conta"></a></li>
+        <li><a href=""><img src="/images/instagram.png" alt="icone da mochila"></a></li>
+        <li><a href=""><img src="/images/silhueta-de-alca-de-telefone 2.png" alt="icone da mochila"></a></li>
+      </ul>
+      <img id="Separador_img2" src="/images/Separador (1).png" alt="imagem separador">
+    </div>
+  </section>
+
+
+  <section class="section" id="section2">
+    <div class="background-image">
+
+      <img id="img_txt_section2" src="images/texto especialidades.png" alt="">
+
+      <ul class="menu_section2">
+      
+        <li><a onmouseover="HoverMouse('Arranjos',' Arranjos para sua casa, igrejas ou eventos.')"  href=""><img  src=" /images/buque-de-flores (1).png"
+          alt="icone de logar na conta"></a></li>
+        <li><a onmouseover="HoverMouse('Para Cuidar ',' Plantas, sementes e mudas para você.')" href=""><img src="/images/flor (1).png" alt="icone da mochila"></a></li>
+        <li><a onmouseover="HoverMouse('Decoração', 'Casamentos, velórios, aniversários e etc')" href=""><img src="/images/wedding-arch 1 (1).png" alt="icone da mochila"></a></li>
+        <li><a onmouseover="HoverMouse('Personalize', 'Crie seus arranjos e buquês do seu jeitinho.')" href=""><img src="/images/florista.png" alt="icone de logar na conta"></a></li>
+        <li><a onmouseover="HoverMouse('Buquês','Para presentes, casamentos. ')" href=""><img src="/images/buque-de-flores.png" alt="icone da mochila"></a></li>
+
+      </ul>
+      <div class="card">
+        <h1 id="tituloh1"></h1>
+        <p id="paragrafo"></p>
+      </div>
+      
+      <img id="Separador_img3" src="/images/Separador (1).png" alt="imagem separador">
+    </div>
+  </section>
+
+  <section class="section" id="section3">
+    <div class="background-image">
+
+      <img id="img_txt_section3" src="images/Mais vendidos (1).png" alt="">
+        <ul class="card_list">
+          <li><a href=""> <img src="/images/Card1.png" alt=""></a></li>
+          <li><a href=""><img src="/images/Card2.png" alt=""></a></li>
+          <li><a href=""><img src="/images/Card3.png" alt=""></a></li>
+          <li><a href=""><img src="/images/Card4.png" alt=""></a></li>
+        </ul>
+    </div>
+  
+  </section>
+  <footer>
+    <img src="images/Footer (1).png" alt="">
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
